@@ -1,0 +1,61 @@
+.team-bg {
+    background: #f4f4fd;
+    padding: 120px 0;
+    width: 100%;
+}
+
+.team-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.team-item {
+    background: #ffffff;
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
+}
+
+.team-bg img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.team-div {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+.team-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-bg h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.team-bg p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
